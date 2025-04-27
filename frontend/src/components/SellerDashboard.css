@@ -1,0 +1,46 @@
+/* SellerDashboard.css */
+.seller-dashboard {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.seller-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.seller-main {
+    flex: 1;
+    padding: 20px;
+}
+
+.seller-summary {
+    margin-bottom: 30px;
+}
+
+.summary-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.seller-products,
+.seller-orders {
+    margin-bottom: 30px;
+}
+
+.seller-footer {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}

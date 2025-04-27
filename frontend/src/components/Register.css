@@ -1,0 +1,141 @@
+/* Register.css */
+.register-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .register-form {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 500px;
+  }
+  
+  .register-form h1 {
+    color: #2e7d32;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .register-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .register-form p {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .name-group {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group.radio-group {
+    margin-top: 10px;
+  }
+  
+  .form-group.radio-group label {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .form-group.radio-group input {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .form-group.terms {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group.terms input {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .create-account-button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  
+  .register-info {
+    flex: 1;
+    background-color: #f0f4f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .register-info img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .register-info h1 {
+    color: #2e7d32;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .register-info p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .trusted-by {
+    display: flex;
+    align-items: center;
+  }
+  
+  .trusted-by p {
+    margin: 0 10px;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .signin-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signin-link a {
+    color: #2e7d32;
+    text-decoration: none;
+  }
+  

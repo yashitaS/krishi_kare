@@ -1,0 +1,111 @@
+/* InsurancePage.css */
+.insurance-page {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+}
+
+.insurance-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.insurance-main {
+    padding: 20px;
+}
+
+.insurance-types {
+    margin-bottom: 30px;
+}
+
+.insurance-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding-bottom: 20px; /* Add some space for the scrollbar */
+}
+
+.insurance-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 300px; /* Adjust width as needed */
+    transition: transform 0.3s ease;
+}
+
+.insurance-card:hover {
+    transform: translateY(-5px);
+}
+
+.insurance-card h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.insurance-card .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.insurance-card p {
+    margin-bottom: 15px;
+}
+
+.coverage-list {
+    list-style: none;
+    padding: 0;
+}
+
+.coverage-list li {
+    margin-bottom: 8px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.coverage-list li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+}
+
+.insurance-card .get-started-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.insurance-card .get-started-button:hover {
+    background-color: #388E3C;
+}
+
+.insurance-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .insurance-cards {
+        flex-direction: column;
+    }
+
+    .insurance-card {
+        flex: 1;
+    }
+}

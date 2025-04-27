@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: bold;
+  color: #4b8b3b;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #333;
+}
+
+.nav-auth {
+  display: flex;
+  gap: 10px;
+}
+
+.sign-in, .register {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sign-in {
+  background: #fff;
+  color: #4b8b3b;
+  border: 1px solid #4b8b3b;
+}
+
+.register {
+  background: #4b8b3b;
+  color: #fff;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  background: #eaf6e6;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #1b2c1b;
+}
+
+.highlight {
+  color: #4b8b3b;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #4b4b4b;
+  margin-bottom: 28px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.get-started {
+  background: #4b8b3b;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.explore-store {
+  background: #fff;
+  color: #4b8b3b;
+  border: 1px solid #4b8b3b;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  width: 370px;
+  border-radius: 18px;
+  object-fit: cover;
+}

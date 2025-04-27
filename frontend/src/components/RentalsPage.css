@@ -1,0 +1,76 @@
+/* RentalsPage.css */
+.rentals-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.rentals-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rentals-main {
+    padding: 20px;
+}
+
+.rentals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.rental-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rental-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.weekly-rate {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.specifications {
+    list-style: none;
+    padding: 0;
+}
+
+.specifications li {
+    margin-bottom: 5px;
+}
+
+.rent-now-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Added CSS to display cart */
+.cart-display {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.cart-display ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-display li {
+  padding: 5px 0;
+}
